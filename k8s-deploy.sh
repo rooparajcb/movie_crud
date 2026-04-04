@@ -2,7 +2,7 @@
 
 set -e
 
-BASE_PATH="/kube_scripts"
+BASE_PATH="$(pwd)/kube_scripts"
 STORAGE_FLAG_FILE="$BASE_PATH/.storage_done"
 
 setup_storage() {
