@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: spring-sak
-          image: sakit333/spring-kube-sakgroup:latest
+          image: rooparajcb/spring-kube-sakgroup:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8085
